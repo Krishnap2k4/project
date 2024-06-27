@@ -1,0 +1,43 @@
+/*
+Theme Name: Web Systems Solution
+Text Domain: webSystems
+Version: 1
+Tested up to: 7.0
+Requires at least: 5.9
+Requires PHP: 7.0
+Description: Web Systems Solution`s theme
+Tags: Web Systems Solution
+Author: the web-systems.solutions team
+Author URI: https://web-systems.solutions/
+*/
+
+.project-video__box {
+    padding: 0;
+}
+
+textarea {
+    resize: none !important;
+}
+
+@media screen and (min-width: 1439px) {
+    #modal-project .form-group input[type="text"] {
+        width: 100%;
+        max-width: none;
+    }
+
+    #modal-project .form-box {
+        min-height: 714px;
+    }
+}
+
+#modal-project .form-group textarea {
+    width: 100%;
+    max-width: none;
+    resize: none;
+    height: 80px;
+    min-height: 59px;
+}
+
+textarea {
+    resize: none !important;
+}
